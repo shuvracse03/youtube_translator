@@ -14,8 +14,8 @@ from typing import Optional, Type
 from langchain.callbacks.manager import AsyncCallbackManager, CallbackManager
 
 
+os.environ["OPENAI_API_KEY"] = 'OPENAPI-KEY'
 
-os.environ["OPENAI_API_KEY"] = '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'
 
 class YoutubeTranslator(BaseTool):
     name = "youtube_translator"
