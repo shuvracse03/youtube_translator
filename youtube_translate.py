@@ -42,7 +42,7 @@ class YoutubeTranslator(BaseTool):
 
 def test_tool():
     tool = YoutubeTranslator()
-    print(tool.run('https://www.youtube.com/watch?v=a71xD6RyOok&ab_channel=SaregamaMusic, bn')) #Translate to bangla language
+    print(tool.run('https://www.youtube.com/watch?v=QsYGlZkevEg, bn')) #Translate to bangla language
 
 
 
